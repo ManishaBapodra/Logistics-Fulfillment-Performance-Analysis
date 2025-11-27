@@ -86,7 +86,7 @@ Import each view as a **separate data source**.
 
 ### 4. Build the Dashboard  
 Follow the layout described in `project_overview.md`
-**project_overview.md has not been uploaded yet. I’m working on a few UI improvements and will upload it shortly.**
+**project_overview.md has not been uploaded yet. I’m working on a few improvements and will upload it shortly.**
 
 ---
 
