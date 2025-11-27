@@ -1,4 +1,4 @@
-# 🚚 TheLook E-Commerce — Logistics & Fulfillment Performance Analysis  
+# TheLook E-Commerce — Logistics & Fulfillment Performance Analysis  
 ### Built with **BigQuery SQL Views + Tableau**
 
 This project showcases end-to-end data analysis executed on the **TheLook E-Commerce** dataset (Google BigQuery Public Data).  
@@ -6,7 +6,7 @@ It demonstrates real data analytics skills — SQL, data cleaning, KPI modeling,
 
 ---
 
-## 📍 Project Objective
+## Project Objective
 
 To analyze the **logistics and fulfillment performance** of an e-commerce business by measuring:
 
@@ -22,7 +22,7 @@ All metrics are visualized in a professional Tableau dashboard.
 
 ---
 
-## 🧠 Key Skills Demonstrated
+## Key Skills Demonstrated
 
 - **Advanced SQL** (CTEs, calculated fields, cleaning timestamps, derived KPIs)
 - **Data Modeling** (clean views, validated pipelines)
@@ -33,7 +33,7 @@ All metrics are visualized in a professional Tableau dashboard.
 
 ---
 
-## 🧹 Data Cleaning & Preparation
+## Data Cleaning & Preparation
 
 To ensure accurate logistics analysis, raw order data was cleaned to create the view `order_items_logistics_clean`.
 
@@ -51,7 +51,7 @@ The data pipeline applies the following logic to ensure data quality:
 
 ---
 
-## 📊 Final Dashboard Features
+## Final Dashboard Features
 
 ### KPI Tiles  
 - Avg Processing Time  
@@ -66,7 +66,7 @@ The data pipeline applies the following logic to ensure data quality:
 - Delivery Delay Rate by Region (Heatmap/Table)
 
 
-## 🛠️ How to Reproduce the Project
+## How to Reproduce the Project
 
 ### 1. Connect to BigQuery  
 Dataset:  
@@ -90,7 +90,7 @@ Follow the layout described in `project_overview.md`
 
 ---
 
-## 📈 Example KPIs  
+## Example KPIs  
 (All based on cleaned data)
 
 | Metric | Value |
@@ -105,5 +105,5 @@ See the full interpretation in insights_summary.md
 
 ---
 
-## 📬 Contact  
+## Contact  
 If you’d like to collaborate, improve the analysis, or explore extensions, feel free to reach out.
