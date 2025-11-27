@@ -1,4 +1,4 @@
-# TheLook E-Commerce — Logistics & Fulfillment Performance Analysis  
+# TheLook E-Commerce - Logistics & Fulfillment Performance Analysis  
 ### Built with **BigQuery SQL Views + Tableau**
 
 This project showcases end-to-end data analysis executed on the **TheLook E-Commerce** dataset (Google BigQuery Public Data).  
