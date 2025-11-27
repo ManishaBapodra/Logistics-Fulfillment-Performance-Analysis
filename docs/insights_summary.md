@@ -1,10 +1,10 @@
-# 📊 Logistics & Fulfillment Performance Analysis — Insights Summary
+# Logistics & Fulfillment Performance Analysis - Insights Summary
 
 This analysis examines the end-to-end logistics performance of TheLook E-Commerce platform, using BigQuery SQL Views and Tableau visualizations. The insights highlight operational strengths, bottlenecks, and opportunities for optimization across order processing, shipping, fulfillment, and regional delivery performance.
 
 ---
 
-## 🧩 1. End-to-End Fulfillment Performance
+## 1. End-to-End Fulfillment Performance
 
 ### **1.1 Processing Time**
 - **Average processing time:** **34.54 hours (~1.44 days)**
@@ -34,7 +34,7 @@ This analysis examines the end-to-end logistics performance of TheLook E-Commerc
 
 ---
 
-## 🧩 2. Delivery SLA Performance (SLA = 5 days)
+## 2. Delivery SLA Performance (SLA = 5 days)
 
 ### **2.1 On-Time Delivery Rate**
 - **71.6% of orders meet the 5-day SLA**
@@ -44,7 +44,7 @@ This analysis examines the end-to-end logistics performance of TheLook E-Commerc
 > While most orders meet SLA, nearly one-third of deliveries exceed the threshold 
 ---
 
-## 🧩 3. Regional Delivery Performance
+## 3. Regional Delivery Performance
 
 ### **3.1 Delay Rates by Country**
 Top delayed regions (example output):
@@ -64,7 +64,7 @@ Top delayed regions (example output):
 
 ---
 
-## 🧩 4. Distribution Center Performance
+## 4. Distribution Center Performance
 
 ### **4.1 Avg Fulfillment Time by DC**
 Across all distribution centers:
@@ -77,7 +77,7 @@ Across all distribution centers:
 
 ---
 
-## 🧩 5. Returns Analysis
+## 5. Returns Analysis
 
 ### **5.1 Return Rate**
 - **10.1% average return rate**
@@ -88,7 +88,7 @@ Across all distribution centers:
 
 ---
 
-# 🎯 Final Summary of Findings
+# Final Summary of Findings
 
 - Warehousing/processing delays have the **largest impact** on fulfillment time.
 - Shipping time is healthy and consistent.
@@ -99,7 +99,7 @@ Across all distribution centers:
 
 ---
 
-# 🚀 Recommended Next Steps
+# Recommended Next Steps
 
 - Improve warehouse processing workflows (e.g., automation, batching, staff allocation).
 - Investigate regional patterns (Austria, Spain) to understand geographic carrier constraints.
