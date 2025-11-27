@@ -33,6 +33,24 @@ All metrics are visualized in a professional Tableau dashboard.
 
 ---
 
+## 🧹 Data Cleaning & Preparation
+
+To ensure accurate logistics analysis, raw order data was cleaned to create the view `order_items_logistics_clean`.
+
+### Data Volume Summary
+* **Raw Records:** 181,382
+* **Cleaned Records:** 44,759
+* **Retention Rate:** ~24.7% (Focusing only on completed, valid lifecycles)
+
+### Transformation Logic
+The data pipeline applies the following logic to ensure data quality:
+
+| **1. Filtering** | **Exclude Incomplete Statuses** | Removed `Cancelled` and `Processing` orders to focus on completed logistics cycles only. |
+| **2. Logic Check** | **Fix "Time Travel" Errors** | Removed invalid rows where `shipped_at < created_at` or `delivered_at < shipped_at`. |
+| **3. Standardization** | **Normalize Locations** | Standardized `country`: mapped "España" → "Spain" |
+
+---
+
 ## 📊 Final Dashboard Features
 
 ### KPI Tiles  
@@ -82,7 +100,8 @@ Follow the layout described in `project_overview.md`.
 | On-Time Delivery | 71.6% |
 | Return Rate | 10.1% |
 
-(See full interpretation in `insights_summary.md`.)
+See the full interpretation in insights_summary.md
+insights_summary.md has not been uploaded yet—I’m working on a few UI improvements and will upload it shortly.
 
 ---
 
