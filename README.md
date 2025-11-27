@@ -85,7 +85,8 @@ Inside the `sql/` folder you will find:
 Import each view as a **separate data source**.
 
 ### 4. Build the Dashboard  
-Follow the layout described in `project_overview.md`.
+Follow the layout described in `project_overview.md`
+**project_overview.md has not been uploaded yet. I’m working on a few UI improvements and will upload it shortly.**
 
 ---
 
@@ -101,7 +102,6 @@ Follow the layout described in `project_overview.md`.
 | Return Rate | 10.1% |
 
 See the full interpretation in insights_summary.md
-insights_summary.md has not been uploaded yet—I’m working on a few UI improvements and will upload it shortly.
 
 ---
 
