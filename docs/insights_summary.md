@@ -67,19 +67,19 @@ The network is well-balanced, but efficiency enhancements (especially in process
 
 ---
 
-## 🌍 Regional Delivery Delay Analysis
+## Regional Delivery Delay Analysis
 Certain countries experience significantly higher average delays, even under a generous 5-day SLA. Key findings:
 
 - **Austria** shows the highest delay rate at ~67%
 - **Belgium, France, Spain, UK** show mid-range delays (25–32%)
 - Delivery reliability is highly dependent on regional carrier performance and geographic distance
 
-➡️ *Opportunity:*  
+ *Opportunity:*  
 Investigate route optimization, third-party carrier partnerships, or distribution center routing logic for high-delay regions.
 
 ---
 
-## 🎯 Summary of Opportunities & Recommendations
+## Summary of Opportunities & Recommendations
 
 | Area | Issue Identified | Recommendation |
 |------|------------------|----------------|
@@ -91,7 +91,7 @@ Investigate route optimization, third-party carrier partnerships, or distributio
 
 ---
 
-## 📌 Final Takeaway
+## Final Takeaway
 The fulfillment pipeline is **functional and stable**, but **processing bottlenecks** create the most significant delays.  
 By improving processing workflows and addressing regional delivery issues, TheLook e-commerce could realistically:
 
