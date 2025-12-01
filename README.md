@@ -2,7 +2,7 @@
 ### Built with **BigQuery SQL Views + Tableau**
 
 This project showcases end-to-end data analysis executed on the **TheLook E-Commerce** dataset (Google BigQuery Public Data).  
-It demonstrates real data analytics skills — SQL, data cleaning, KPI modeling, visualization, and insight generation.
+It demonstrates a data analytics skills — SQL, data cleaning, KPI modeling, visualization, and insight generation.
 
 ---
 
@@ -10,11 +10,11 @@ It demonstrates real data analytics skills — SQL, data cleaning, KPI modeling,
 
 To analyze the **logistics and fulfillment performance** of an e-commerce business by measuring:
 
-- Processing Time  
-- Shipping Time  
-- Total Fulfillment Time  
-- SLA Compliance  
-- Return Rates  
+- Average Processing Time  
+- Average Shipping Time  
+- Average Fulfillment Time   
+- Return Rates
+- Monthly Fulfillment Trend
 - Regional Delivery Delays  
 - Distribution Center Efficiency  
 
@@ -77,9 +77,8 @@ bigquery-public-data.thelook_ecommerce
 Inside the `sql/` folder you will find:
 
 - `order_items_logistics_clean`
-- KPI calculation views
 - Regional delay view
-- Distribution center performance view
+- Other KPIs are calculated directly in Tableau using the calculated fields in Tableau
 
 ### 3. Connect Tableau to BigQuery  
 Import each view as a **separate data source**.
@@ -93,17 +92,14 @@ Follow the layout described in `project_overview.md`
 ## Example KPIs  
 (All based on cleaned data)
 
-| Metric | Value |
-|-------|--------|
-| Avg Processing Time | 34.54 hours |
-| Avg Shipping Time | 2.487 days |
-| Avg Fulfillment Time | 3.947 days |
-| On-Time Delivery | 71.6% |
-| Return Rate | 10.1% |
+- Average fulfillment time remains under the SLA (3.97 days vs SLA 5 days).  
+- On-time delivery rate is 70.73% — room for improvement.  
+- EU regions show high delay rates (Austria 66.7%, Belgium 50%).  
+- Return rate is 28.63%, above typical benchmarks.
 
 See the full interpretation in insights_summary.md
 
 ---
 
 ## Contact  
-If you’d like to collaborate, improve the analysis, or explore extensions, feel free to reach out.
+If you’d like to collaborate, improve the analysis, or explore extensions, feel free to reach out 
